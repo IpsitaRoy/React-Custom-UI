@@ -129,7 +129,6 @@ export default function usePushNotifications() {
       .post("/subscription", { userSubscription, USER_ID })
       .then(function(response) {
         setPushServerSubscriptionId(response.id);
-        console.log(userSubscription, response.id);
         setLoading(false);
       })
       .catch(err => {

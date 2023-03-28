@@ -2,10 +2,10 @@ const subscriptions = {};
 const webpush = require("web-push");
 
 const vapidKeys = {
-  "subject": "mailto: <ipsitaroy19@gmail.com>",
-  "publicKey": "BO3sbkPDgGCDNB7OVs1FBZxQTbENCnmWGkSsC27zay1cnfVvticZOBg5a3m6WC_sB1H1tHSJHHR2faw_xMjKTt0",
-  "privateKey": "WuuaxK5QptkKPPeY-5a14XwyqkLyveTCXoQvIgphebo"
-}
+  "subject": "mailto: <raol.sharma15@gmail.com>",
+  "publicKey": "BK_YLgj3eEZljszRkxHpcAfb4ajs6UTLAGB9Pim2khkLCYCC3lX454JBzCLT-NK6rnJu-hudt-mjG2vnOxs7JHs",
+  "privateKey": "n5Vmoi_jNMCwVQdtg_Tq3Q0Zqw2GTBPvP6ElsqxOG0o"
+  }
 
 webpush.setVapidDetails(vapidKeys.subject, vapidKeys.publicKey, vapidKeys.privateKey);
 

@@ -1,4 +1,4 @@
-const pushServerPublicKey = "BO3sbkPDgGCDNB7OVs1FBZxQTbENCnmWGkSsC27zay1cnfVvticZOBg5a3m6WC_sB1H1tHSJHHR2faw_xMjKTt0";
+const pushServerPublicKey = "BK_YLgj3eEZljszRkxHpcAfb4ajs6UTLAGB9Pim2khkLCYCC3lX454JBzCLT-NK6rnJu-hudt-mjG2vnOxs7JHs";
 
 /**
  * checks if Push notification and service workers are supported by your browser
